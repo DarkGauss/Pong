@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Robert/Documents/UnityProjects/Pong_1/Builds/Pong_1.exe
+C:/Users/Robert/Desktop/test/Pong_1.exe
 SceneListBegin?
 Assets/Scenes/mainMenu.unity
 Assets/Scenes/mainGame.unity
