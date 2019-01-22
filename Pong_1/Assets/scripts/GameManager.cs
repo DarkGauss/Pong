@@ -53,10 +53,15 @@ public class GameManager : MonoBehaviour
         {
             GameOver(1);
         }
-        if(PlayerScore2 == winningScore)
+        else if (PlayerScore2 == winningScore)
         {
             GameOver(2);
         }
+        else
+        {
+            mainBall.RestartBall();
+        }
+
     }
 
     public void updateScoreText()
@@ -73,5 +78,6 @@ public class GameManager : MonoBehaviour
         PlayerScore2 = 0;
         displayWinner(winner);
         mainBall.RestartBallGame();
+        Debug.Log("Gameover. Winner:" + winner.ToString());
     }
 }

@@ -26,6 +26,8 @@ public class BallControl : MonoBehaviour
 
     void StartBall()
     {
+        Debug.Log("Starting ball");
+        GameObject.Find("GameManager").SendMessage("updateScoreText");
         //decides which direction the ball will go in
         float rand = Random.Range(0, 2);
 
@@ -47,7 +49,7 @@ public class BallControl : MonoBehaviour
     {
         Debug.Log("Restarting");
         ResetBallPos();
-        Invoke("StartBall", 3);
+        Invoke("StartBall", 4);
     }
     public void RestartBall()
     {

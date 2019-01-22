@@ -34,7 +34,7 @@ public class Goal : MonoBehaviour
         if (hitInfo.name == "Ball")
         {
             GameManager.Score(attackPlayer);
-            hitInfo.gameObject.SendMessage("RestartBall");
+            //hitInfo.gameObject.SendMessage("RestartBall");
         }
     }
 }
