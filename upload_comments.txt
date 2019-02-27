@@ -1,0 +1,4 @@
+To download, follow the instructions on readme. The code(along with the whole project) is available at: ??????https://github.com/DarkGauss/Pong
+
+Zip file included is the same you would get when you clicked "Clone or Download" and then clicked "Download as zip" on github.
+The scripts(code) used are in Pong-master\Pong_1\Assets\scripts
